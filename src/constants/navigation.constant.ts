@@ -5,3 +5,4 @@ export const NAV_ITEMS = [
   { key: 'about', path: ROUTES.ABOUT },
   { key: 'contact', path: ROUTES.CONTACT },
 ] as const;
+test
