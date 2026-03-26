@@ -4,7 +4,7 @@ export const headerVariants = {
     boxShadow: '0 0 0 rgba(0,0,0,0)',
   },
   scrolled: {
-    backgroundColor: 'hsl(var(--background) / 0.85)',
+    backgroundColor: '(var(--background) / 0.85)',
     boxShadow: '0 4px 20px rgba(0,0,0,0.08)',
   },
 };
