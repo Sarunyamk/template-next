@@ -1,6 +1,6 @@
 import { ColumnFade } from '@/components/framer-motion/fade';
 import Link from 'next/link';
-import { ROUTES } from './constants/route.constant';
+import { ROUTES } from '@/constants/route.constant';
 
 export default function NotFoundPage() {
   return (
