@@ -1,3 +1,4 @@
+import Footer from '@/components/layout/footer';
 import Header from '@/components/layout/header';
 import { ThemeProvider } from '@/components/theme/theme-provider';
 import type { Metadata } from 'next';
@@ -33,9 +34,10 @@ export default function RootLayout({
       <body>
         <ThemeProvider>
           <Header />
-          <main className='min-h-screen pt-20'>
+          <main className="min-h-screen pt-20">
             {children}
           </main>
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
