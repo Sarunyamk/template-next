@@ -1,5 +1,6 @@
 import { ColumnFade } from '@/components/framer-motion/fade';
 import Link from 'next/link';
+import { ROUTES } from './constants/route.constant';
 
 export default function NotFoundPage() {
   return (
@@ -22,7 +23,7 @@ export default function NotFoundPage() {
 
         <ColumnFade delay={0.3}>
           <Link
-            href={'/'}
+            href={ROUTES.HOME}
             className="inline-block rounded-lg px-6 py-3 transition hover:underline"
           >
             Back to Home
